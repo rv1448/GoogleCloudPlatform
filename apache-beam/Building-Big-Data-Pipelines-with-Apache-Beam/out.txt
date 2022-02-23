@@ -1,0 +1,322 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 10.16
+[INFO] os.detected.version.major: 10
+[INFO] os.detected.version.minor: 16
+[INFO] os.detected.classifier: osx-x86_64
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Building Big Data Pipelines with Apache Beam                       [pom]
+[INFO] Building Big Data Pipelines with Apache Beam Utils                 [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 1             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 2             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 3             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 4             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 5             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 6             [jar]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 7             [jar]
+[INFO] 
+[INFO] -------------------< com.packtpub.beam:beam-parent >--------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam 1.0.0        [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-parent ---
+[INFO] 
+[INFO] --------------------< com.packtpub.beam:beam-util >---------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam Utils 1.0.0  [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-util ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ beam-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beam-util ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ beam-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beam-util ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ beam-util ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.packtpub.beam.util.ToMetricTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.436 s - in com.packtpub.beam.util.ToMetricTest
+[INFO] Running com.packtpub.beam.util.PositionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.packtpub.beam.util.PositionTest
+[INFO] Running com.packtpub.beam.util.WithStringSchemaTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.packtpub.beam.util.WithStringSchemaTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ beam-util ---
+[INFO] 
+[INFO] ------------------< com.packtpub.beam:beam-chapter1 >-------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam Chapter 1 1.0.0 [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-chapter1 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ beam-chapter1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beam-chapter1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ beam-chapter1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beam-chapter1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ beam-chapter1 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.packtpub.beam.chapter1.Chapter1DemoTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.759 s - in com.packtpub.beam.chapter1.Chapter1DemoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ beam-chapter1 ---
+[INFO] 
+[INFO] ------------------< com.packtpub.beam:beam-chapter2 >-------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam Chapter 2 1.0.0 [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-chapter2 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ beam-chapter2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beam-chapter2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ beam-chapter2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beam-chapter2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ beam-chapter2 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.packtpub.beam.chapter2.SportTrackerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.812 s - in com.packtpub.beam.chapter2.SportTrackerTest
+[INFO] Running com.packtpub.beam.chapter2.AverageWordLengthTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.397 s - in com.packtpub.beam.chapter2.AverageWordLengthTest
+[INFO] Running com.packtpub.beam.chapter2.SlidingWindowWordLengthTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in com.packtpub.beam.chapter2.SlidingWindowWordLengthTest
+[INFO] Running com.packtpub.beam.chapter2.TopKWordsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s - in com.packtpub.beam.chapter2.TopKWordsTest
+[INFO] Running com.packtpub.beam.chapter2.MyStringCoderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.packtpub.beam.chapter2.MyStringCoderTest
+[INFO] Running com.packtpub.beam.chapter2.MaxWordLengthTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 s - in com.packtpub.beam.chapter2.MaxWordLengthTest
+[INFO] Running com.packtpub.beam.chapter2.MaxWordLengthWithTimestampTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 s - in com.packtpub.beam.chapter2.MaxWordLengthWithTimestampTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ beam-chapter2 ---
+[INFO] 
+[INFO] ------------------< com.packtpub.beam:beam-chapter3 >-------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam Chapter 3 1.0.0 [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-chapter3 ---
+[INFO] 
+[INFO] --- protobuf-maven-plugin:0.6.1:compile (default) @ beam-chapter3 ---
+[INFO] Compiling 1 proto file(s) to /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/target/generated-sources/protobuf/java
+[INFO] 
+[INFO] --- protobuf-maven-plugin:0.6.1:compile-custom (default) @ beam-chapter3 ---
+[INFO] Compiling 1 proto file(s) to /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/target/generated-sources/protobuf/grpc-java
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ beam-chapter3 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beam-chapter3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/target/classes
+[WARNING] /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/src/main/java/com/packtpub/beam/chapter3/DroppableDataFilter2.java:[277,21] getAllowedTimestampSkew() in org.apache.beam.sdk.transforms.DoFn has been deprecated
+[INFO] 
+[INFO] --- protobuf-maven-plugin:0.6.1:test-compile (default) @ beam-chapter3 ---
+[INFO] /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/src/test/proto does not exist. Review the configuration or consider disabling the plugin.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ beam-chapter3 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beam-chapter3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ beam-chapter3 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.packtpub.beam.chapter3.DroppableDataFilterTest
+[main] WARN  org.apache.beam.sdk.Pipeline  - The following transforms do not have stable unique names: Window.Into()
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.589 s - in com.packtpub.beam.chapter3.DroppableDataFilterTest
+[INFO] Running com.packtpub.beam.chapter3.RPCParDoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.662 s - in com.packtpub.beam.chapter3.RPCParDoTest
+[INFO] Running com.packtpub.beam.chapter3.DroppableDataFilter2Test
+[main] WARN  org.apache.beam.sdk.Pipeline  - The following transforms do not have stable unique names: Flatten.PCollections, MapElements, Window.Into()
+[main] WARN  org.apache.beam.sdk.Pipeline  - The following transforms do not have stable unique names: Flatten.PCollections, Combine.globally(Count), Combine.globally(SumLong), MapElements, Window.Into()
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.556 s - in com.packtpub.beam.chapter3.DroppableDataFilter2Test
+[INFO] Running com.packtpub.beam.chapter3.RPCParDoBatchTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in com.packtpub.beam.chapter3.RPCParDoBatchTest
+[INFO] Running com.packtpub.beam.chapter3.RPCParDoStatefulTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.245 s - in com.packtpub.beam.chapter3.RPCParDoStatefulTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ beam-chapter3 ---
+[INFO] Building jar: /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter3/target/beam-chapter3-1.0.0.jar
+[INFO] 
+[INFO] ------------------< com.packtpub.beam:beam-chapter4 >-------------------
+[INFO] Building Building Big Data Pipelines with Apache Beam Chapter 4 1.0.0 [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spotless-maven-plugin:2.0.1:apply (apply) @ beam-chapter4 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ beam-chapter4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter4/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beam-chapter4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ beam-chapter4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter4/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beam-chapter4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ beam-chapter4 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.packtpub.beam.chapter4.SportTrackerMotivationUsingCoGBKTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.873 s - in com.packtpub.beam.chapter4.SportTrackerMotivationUsingCoGBKTest
+[INFO] Running com.packtpub.beam.chapter4.ComputeAverageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 s - in com.packtpub.beam.chapter4.ComputeAverageTest
+[INFO] Running com.packtpub.beam.chapter4.SportTrackerMotivationUsingOwnJoinTest
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.458 s <<< FAILURE! - in com.packtpub.beam.chapter4.SportTrackerMotivationUsingOwnJoinTest
+[ERROR] com.packtpub.beam.chapter4.SportTrackerMotivationUsingOwnJoinTest.testComputationStream  Time elapsed: 0.243 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+Caused by: java.io.IOException: unexpected exception type
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Invalid lambda deserialization
+
+[ERROR] com.packtpub.beam.chapter4.SportTrackerMotivationUsingOwnJoinTest.testComputationBatch  Time elapsed: 0.207 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+Caused by: java.io.IOException: unexpected exception type
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Invalid lambda deserialization
+
+[INFO] Running com.packtpub.beam.chapter4.SportTrackerMotivationUsingJoinLibraryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.423 s - in com.packtpub.beam.chapter4.SportTrackerMotivationUsingJoinLibraryTest
+[INFO] Running com.packtpub.beam.chapter4.StreamingInnerJoinTest
+[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.488 s <<< FAILURE! - in com.packtpub.beam.chapter4.StreamingInnerJoinTest
+[ERROR] com.packtpub.beam.chapter4.StreamingInnerJoinTest.testJoinWithChangedRightValue  Time elapsed: 0.134 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+	at com.packtpub.beam.chapter4.StreamingInnerJoinTest.$deserializeLambda$(StreamingInnerJoinTest.java:1)
+
+[ERROR] com.packtpub.beam.chapter4.StreamingInnerJoinTest.testJoinWithMultiValuesLeftAndRight  Time elapsed: 0.12 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+	at com.packtpub.beam.chapter4.StreamingInnerJoinTest.$deserializeLambda$(StreamingInnerJoinTest.java:1)
+
+[ERROR] com.packtpub.beam.chapter4.StreamingInnerJoinTest.testSimpleInnerJoin  Time elapsed: 0.116 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+	at com.packtpub.beam.chapter4.StreamingInnerJoinTest.$deserializeLambda$(StreamingInnerJoinTest.java:1)
+
+[ERROR] com.packtpub.beam.chapter4.StreamingInnerJoinTest.testJoinWithChangedJoinKey  Time elapsed: 0.11 s  <<< ERROR!
+java.lang.IllegalArgumentException: unable to deserialize Custom DoFn With Execution Info
+	at com.packtpub.beam.chapter4.StreamingInnerJoinTest.$deserializeLambda$(StreamingInnerJoinTest.java:1)
+
+[INFO] Running com.packtpub.beam.chapter4.SportTrackerMotivationUsingSideInputsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 s - in com.packtpub.beam.chapter4.SportTrackerMotivationUsingSideInputsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SportTrackerMotivationUsingOwnJoinTest.testComputationBatch » IllegalArgument ...
+[ERROR]   SportTrackerMotivationUsingOwnJoinTest.testComputationStream » IllegalArgument
+[ERROR]   StreamingInnerJoinTest.testJoinWithChangedJoinKey » IllegalArgument unable to ...
+[ERROR]   StreamingInnerJoinTest.testJoinWithChangedRightValue » IllegalArgument unable ...
+[ERROR]   StreamingInnerJoinTest.testJoinWithMultiValuesLeftAndRight » IllegalArgument u...
+[ERROR]   StreamingInnerJoinTest.testSimpleInnerJoin » IllegalArgument unable to deseria...
+[INFO] 
+[ERROR] Tests run: 13, Failures: 0, Errors: 6, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Building Big Data Pipelines with Apache Beam 1.0.0:
+[INFO] 
+[INFO] Building Big Data Pipelines with Apache Beam ....... SUCCESS [  0.301 s]
+[INFO] Building Big Data Pipelines with Apache Beam Utils . SUCCESS [  7.442 s]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 1 SUCCESS [  4.724 s]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 2 SUCCESS [  7.250 s]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 3 SUCCESS [ 27.883 s]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 4 FAILURE [  7.159 s]
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 5 SKIPPED
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 6 SKIPPED
+[INFO] Building Big Data Pipelines with Apache Beam Chapter 7 SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  55.177 s
+[INFO] Finished at: 2022-02-21T18:11:51-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project beam-chapter4: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/rahulvangala/GoogleCloudPlatform/apache-beam/Building-Big-Data-Pipelines-with-Apache-Beam/chapter4/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :beam-chapter4

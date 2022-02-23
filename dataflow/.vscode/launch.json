@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch StreamPipeline",
+            "request": "launch",
+            "mainClass": "com.gcp.StreamPipeline",
+            "projectName": "dataflow"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.gcp.App",
+            "projectName": "dataflow"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstPipeline",
+            "request": "launch",
+            "mainClass": "com.gcp.FirstPipeline",
+            "projectName": "dataflow"
+        }
+    ]
+}

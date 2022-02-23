@@ -1,0 +1,8 @@
+service_pb2.py
+service_pb2_grpc.py
+setup.py
+utils.py
+packt_beam_chapter6.egg-info/PKG-INFO
+packt_beam_chapter6.egg-info/SOURCES.txt
+packt_beam_chapter6.egg-info/dependency_links.txt
+packt_beam_chapter6.egg-info/top_level.txt
