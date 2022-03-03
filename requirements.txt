@@ -1,5 +1,0 @@
-fireo==1.4.1
-vt-py==0.13.1
-google-cloud-secret-manager==2.8.0
-google-cloud-storage==2.1.0
-apache-beam[gcp]==2.35.0
