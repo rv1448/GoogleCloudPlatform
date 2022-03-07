@@ -1,3 +1,4 @@
 /terraform/keys/*.json
 /terraform/data/*
 .vscode
+.terraform/
