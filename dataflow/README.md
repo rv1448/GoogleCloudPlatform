@@ -17,6 +17,22 @@
 
   mvn clean dependency:resolve
   mvn dependency:sources dependency:resolve -Dclassifier=javadoc
+
+  export BEAM_VERSION=2.37.0
+  export JAVA_VERSION=11
+
+
+  mvn archetype:generate \
+      -DinteractiveMode=false \
+      -DarchetypeGroupId=org.apache.beam \
+      -DarchetypeArtifactId=beam-sdks-java-maven-archetypes-starter \
+      -DarchetypeVersion=$BEAM_VERSION \
+      -DtargetPlatform=$JAVA_VERSION \
+      -DartifactId=check-pipeline-dependencies \
+      -DgroupId=org.apache.beam.samples
+    
+  mvn dependency:resolve && mvn -o dependency:list
+
   ```
 
 #### APACHE BEAM = Batch + Stream

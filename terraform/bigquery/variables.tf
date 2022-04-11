@@ -1,6 +1,6 @@
 variable "project_id" {
     type = string
-    default = "playground-s-11-4feb0123"
+    default = "playground-s-11-a0c69b54"
 }
 
 variable "cred_json" {

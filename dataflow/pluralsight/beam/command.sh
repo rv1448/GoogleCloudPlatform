@@ -1,2 +1,0 @@
-mvn -Pdataflow-runner compile exec:java -Dexec.mainClass=com.pluralsight.dataflow.JsonPipeline \
--Dexec.args="--project=qwiklabs-gcp-00-1e283968f3fd --gcpTempLocation=gs://qwiklabs-gcp-00-1e283968f3fd/ --tempLocation=gs://qwiklabs-gcp-00-1e283968f3fd/output/ --runner=DataflowRunner --region=us-central1"

@@ -4,7 +4,7 @@ USER_EMAIL=`gcloud config list account --format "value(core.account)"`
 REGION=us-central1
 
 
-keys=$(ls -lt /Users/rahulvangala/Downloads/qwiklabs*.json | head -n 1 | awk  '{print $9}')
+keys=$(ls -lt /Users/rahulvangala/Downloads/playground*.json | head -n 1 | awk  '{print $9}')
 echo $keys
 cp $keys ./secrets.json
 gcpproject=$(cat ./secrets.json | jq -r .project_id)
