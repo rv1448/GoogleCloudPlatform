@@ -9,4 +9,4 @@ dataproc/JavaSparkApp/target/classes/*
 dataproc/JavaSparkApp/target/classes/*.csv
 dataproc/JavaSparkApp/target/classes/sample
 .classpath
-.settings/*
+/.settings/* 
